@@ -12,7 +12,7 @@ bool isPrime(int n)
 int main()
 {
     int num;
-    cout << "Enter a number : ";
+    cout << "Enter a number -> ";
     cin >> num;
     if (isPrime(num))
         cout << num << " is a Prime Number";
